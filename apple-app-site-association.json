@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "7YJK68JXHY.com.aholddelhaize.whitelabel",
+          "7YJK68JXHY.cz.albert.nakup.whitelabel.qa1",
+          "7YJK68JXHY.cz.albert.nakup.whitelabel.qa2",
+          "7YJK68JXHY.cz.albert.nakup.whitelabel.qa3",
+          "7YJK68JXHY.cz.albert.nakup"
+        ],
+        "components": [
+          {
+            "/": "*",
+            "comment": "Matches any URL with a default path."
+          },
+          {
+            "/": "/dummy",
+            "comment": "Matches any URL with a path that starts with /dummy/."
+          }
+        ]
+      }
+    ]
+  }
+}
